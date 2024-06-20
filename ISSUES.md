@@ -74,14 +74,14 @@ Maybe my approach of gathering frames is not the right one. So, open to optimiza
 
 Machine parameters
 
-Memory:           19.4 GiB
-Processor:        Intel® Core™ i5-9500 CPU @ 3.00GHz × 6
-Graphics:         NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 / NVIDIA Corporation GP107 [GeForce GTX 1050 Ti]
-Driver Version:   535.183.01
-CUDA Version:     12.2
-Disk Capacity:    233G
-OS:               Ubuntu 20.04.6 LTS
-OS Type:          64-bit
+    Memory:           19.4 GiB
+    Processor:        Intel® Core™ i5-9500 CPU @ 3.00GHz × 6
+    Graphics:         NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 / NVIDIA Corporation GP107 [GeForce GTX 1050 Ti]
+    Driver Version:   535.183.01
+    CUDA Version:     12.2
+    Disk Capacity:    233G
+    OS:               Ubuntu 20.04.6 LTS
+    OS Type:          64-bit
 
 
 ### In Docker container
@@ -97,12 +97,12 @@ OS Type:          64-bit
 
 Machine parameters
 
-Memory:           64 Gb
-Processor:        11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz × 16
-Graphics:         NVIDIA GeForce RTX 3090
-Driver Version:   535.54.03
-CUDA Version:     12.2
-Disk Capacity:    3.5T
-OS:               Ubuntu 20.04.6 LTS
-OS Type:          64-bit
-Docker version:   24.0.3
+    Memory:           64 Gb
+    Processor:        11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz × 16
+    Graphics:         NVIDIA GeForce RTX 3090
+    Driver Version:   535.54.03
+    CUDA Version:     12.2
+    Disk Capacity:    3.5T
+    OS:               Ubuntu 20.04.6 LTS
+    OS Type:          64-bit
+    Docker version:   24.0.3
