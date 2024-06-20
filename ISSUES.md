@@ -56,7 +56,9 @@ Frames in storage folder:
 
 Maybe my approach of gathering frames is not the right one. So, open to optimizations :)
 
-### FPS rate with various parameters
+## FPS rate with various parameters
+
+### In Host machine
 
     +-------------------+-----------+------------+---------+
     |   shmem_buffers   |   width   |   height   |   FPS   |
@@ -70,3 +72,37 @@ Maybe my approach of gathering frames is not the right one. So, open to optimiza
     |      100          |   960     |    540     |   20.1  |
     +-------------------+-----------+------------+---------+
 
+Machine parameters
+
+Memory:           19.4 GiB
+Processor:        Intel® Core™ i5-9500 CPU @ 3.00GHz × 6
+Graphics:         NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 / NVIDIA Corporation GP107 [GeForce GTX 1050 Ti]
+Driver Version:   535.183.01
+CUDA Version:     12.2
+Disk Capacity:    233G
+OS:               Ubuntu 20.04.6 LTS
+OS Type:          64-bit
+
+
+### In Docker container
+
+    +-------------------+-----------+------------+---------+
+    |   shmem_buffers   |   width   |   height   |   FPS   |
+    +-------------------+-----------+------------+---------+
+    |      100          |   1920    |    1080    |   12.5  |
+    +-------------------+-----------+------------+---------+
+    |      100          |   960     |     540    |   20.1  |
+    +-------------------+-----------+------------+---------+
+
+
+Machine parameters
+
+Memory:           64 Gb
+Processor:        11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz × 16
+Graphics:         NVIDIA GeForce RTX 3090
+Driver Version:   535.54.03
+CUDA Version:     12.2
+Disk Capacity:    3.5T
+OS:               Ubuntu 20.04.6 LTS
+OS Type:          64-bit
+Docker version:   24.0.3
